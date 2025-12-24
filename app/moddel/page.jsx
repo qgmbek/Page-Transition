@@ -102,24 +102,24 @@ const Model = ({ imageDetails }) => {
                 <span>28.538336</span>
                 <span>-81.379234</span>
               </div>
-              <div className="founder">Founder: @mylifeascrystall</div>
+              <div className="founder">Founder: @qgbek9</div>
             </motion.div>
 
             <motion.div className="state-name">
               <motion.span className="first" variants={firstName}>
-                <motion.span variants={letter}>T</motion.span>
-                <motion.span variants={letter}>u</motion.span>
-                <motion.span variants={letter}>r</motion.span>
-                <motion.span variants={letter}>k</motion.span>
-                <motion.span variants={letter}>i</motion.span>
-                <motion.span variants={letter}>c</motion.span>
+                <motion.span variants={letter}>R</motion.span>
+                <motion.span variants={letter}>a</motion.span>
+                <motion.span variants={letter}>n</motion.span>
+                <motion.span variants={letter}>d</motion.span>
+                <motion.span variants={letter}>o</motion.span>
+                <motion.span variants={letter}>m</motion.span>
               </motion.span>
               <motion.span className="last" variants={lastName}>
-                <motion.span variants={letter}>S</motion.span>
-                <motion.span variants={letter}>t</motion.span>
-                <motion.span variants={letter}>a</motion.span>
-                <motion.span variants={letter}>t</motion.span>
+                <motion.span variants={letter}>M</motion.span>
+                <motion.span variants={letter}>o</motion.span>
+                <motion.span variants={letter}>d</motion.span>
                 <motion.span variants={letter}>e</motion.span>
+                <motion.span variants={letter}>l</motion.span>
               </motion.span>
             </motion.div>
           </div>
@@ -189,7 +189,6 @@ const Model = ({ imageDetails }) => {
       </div>
 
       <Browser size={size} />
-
     </motion.div>
   );
 };

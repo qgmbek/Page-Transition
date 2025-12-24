@@ -29,7 +29,6 @@ const Land = ({ imageDetails, image }) => (
                     {(src) => (
                       <motion.img
                         src={src}
-                        alt=""
                         whileHover={{ scale: 1.1 }}
                         transition={transition}
                       />
