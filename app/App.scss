@@ -1,6 +1,6 @@
 $main: #ffffff;
 $white: #ffffff;
-$black: #1A1A1A;
+$black: #1a1a1a;
 
 * {
   box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
   color: $black;
   &:before {
     animation: grain 8s steps(10) infinite;
-    // background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/paper-pattern.png");
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/paper-pattern.png");
     content: "";
     height: 300%;
     left: -50%;
@@ -233,7 +233,7 @@ main {
           }
         }
       }
-      
+
       .scroll-for-more {
         position: absolute;
         bottom: 200px;
